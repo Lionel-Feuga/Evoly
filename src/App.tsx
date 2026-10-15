@@ -330,8 +330,7 @@ export default function App() {
               navigate("home");
             }}
           >
-            <img src="/ev-icon-192.png" alt="" />
-            evoly<span className="brand-dot">.</span>
+            Evoly<span className="brand-dot">.</span>
           </a>
           {offline && (
             <span className="local-tag">
