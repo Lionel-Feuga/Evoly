@@ -64,4 +64,4 @@ Les tests automatisés Chromium ne remplacent pas une validation Safari iOS : in
 - `src/style.css` : design responsive, sans police distante.
 - `design/maquettes/` : concepts visuels initiaux.
 
-Les icônes sont dérivées du dessin SVG local avec `node generate-icons.mjs` (Edge requis).
+Les icônes sont dérivées du logo approuvé (`design/logo-ev-source.png`) avec `node generate-icons.mjs` (Edge requis).

@@ -6,7 +6,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: "prompt",
-      includeAssets: ["icon.svg", "apple-touch-icon.png"],
+      includeAssets: ["ev-icon-192.png", "ev-apple-touch-icon.png"],
       manifest: {
         name: "Evoly — Mon carnet",
         short_name: "Evoly",
@@ -18,15 +18,15 @@ export default defineConfig({
         start_url: "/",
         scope: "/",
         icons: [
-          { src: "/icon-192.png", sizes: "192x192", type: "image/png" },
+          { src: "/ev-icon-192.png", sizes: "192x192", type: "image/png" },
           {
-            src: "/icon-512.png",
+            src: "/ev-icon-512.png",
             sizes: "512x512",
             type: "image/png",
             purpose: "any",
           },
           {
-            src: "/icon-maskable.png",
+            src: "/ev-icon-maskable.png",
             sizes: "512x512",
             type: "image/png",
             purpose: "maskable",

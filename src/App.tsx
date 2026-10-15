@@ -299,7 +299,7 @@ export default function App() {
   if (loadError)
     return (
       <main className="onboarding">
-        <img className="brand-mark" src="/icon.svg" alt="" />
+        <img className="brand-mark" src="/ev-icon-192.png" alt="" />
         <h1>Votre carnet est indisponible</h1>
         <p role="alert">{loadError}</p>
         <button className="primary" onClick={() => location.reload()}>
@@ -314,7 +314,7 @@ export default function App() {
   if (!ready)
     return (
       <main className="loading">
-        <img src="/icon.svg" alt="" />
+        <img src="/ev-icon-192.png" alt="" />
         <p>Ouverture de votre carnet…</p>
       </main>
     );
@@ -330,7 +330,7 @@ export default function App() {
               navigate("home");
             }}
           >
-            <img src="/icon.svg" alt="" />
+            <img src="/ev-icon-192.png" alt="" />
             evoly<span className="brand-dot">.</span>
           </a>
           {offline && (

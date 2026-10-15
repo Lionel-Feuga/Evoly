@@ -109,7 +109,7 @@ test("Carnet complet : saisies, photos, sauvegarde, restauration et hors connexi
       .click();
     await page
       .getByLabel("Importer une photo", { exact: true })
-      .setInputFiles("public/icon-512.png");
+      .setInputFiles("public/ev-icon-512.png");
     await expect(page.locator(".photo-preview")).toBeVisible();
     await page.getByLabel("Date de la photo").fill(date);
     await page.getByRole("button", { name: "Enregistrer la photo" }).click();
